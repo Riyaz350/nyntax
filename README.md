@@ -1,12 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Nyntax
 
-Currently, two official plugins are available:
+players will swtich after 1 player submits word. 
+and his button, input field will be disabled. 
+other player input filed will be enabled. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Scores will update if the word is in dictionary.
 
-## Expanding the ESLint configuration
+if the last words last letter matches then player gets 5 points
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+but if it doesn't then player gets 3 points 
+
+go to your command prompt
+
+git clone https://github.com/Riyaz350/nyntax 
+
+cd nyntax
+
+npm install
+
+npm run dev
+
+now follow the link to run locally. 
+
